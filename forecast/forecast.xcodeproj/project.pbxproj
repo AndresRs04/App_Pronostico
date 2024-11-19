@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBE855962CED425A005EA34C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FBE855952CED425A005EA34C /* Alamofire */; };
 		FBE980432CE7B19500F3C3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE980422CE7B19500F3C3F9 /* AppDelegate.swift */; };
 		FBE980452CE7B19500F3C3F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE980442CE7B19500F3C3F9 /* SceneDelegate.swift */; };
 		FBE980472CE7B19500F3C3F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE980462CE7B19500F3C3F9 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE855962CED425A005EA34C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = forecast;
+			packageProductDependencies = (
+				FBE855952CED425A005EA34C /* Alamofire */,
+			);
 			productName = forecast;
 			productReference = FBE9803F2CE7B19500F3C3F9 /* forecast.app */;
 			productType = "com.apple.product-type.application";
@@ -619,6 +624,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBE855952CED425A005EA34C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBE980722CE7B2FD00F3C3F9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBE980372CE7B19500F3C3F9 /* Project object */;
 }
